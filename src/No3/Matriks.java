@@ -37,21 +37,6 @@ System.out.println("RAFI DIMAS RAMADANI");
         System.out.println("=== Matriks B ===");
         printMatriks(B);
        
-        int [][] c = {
-            {5,6},
-            {7,8},
-            {9,10}
-        };
-        System.out.println("=== Matriks C ===");
-        printMatriks(c);
-        int hasil_tambah [][]= new int [A.length][A[0].length];
-        System.out.println("Hasil Penjumlahan :");
-        for (int i = 0; i < A.length; i++) {
-            for (int j = 0; j < A[0].length; j++) {
-                hasil_tambah[i][j]= A[i][j] + B[i][j];
-                System.out.print(hasil_tambah[i][j]+" ");   
-            }System.out.println();  
-        }
         int hasil_kali [][] = new int [hasil_tambah.length][c[0].length];
         System.out.println("Hasil Perkalian :");
         for (int i = 0; i < hasil_tambah.length; i++) {
